@@ -13,6 +13,9 @@ const MainNavigation = () => {
           <li>
             <NavLink to="/new-meetup">New Meetup</NavLink>
           </li>
+          <li>
+            <NavLink to="/favorites">My Favorites</NavLink>
+          </li>
         </ul>
       </nav>
     </header>

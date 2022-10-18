@@ -2,6 +2,7 @@ import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import AllMeetups from "./pages/AllMeetups";
+import Favorites from "./pages/Favorites";
 import NewMeetup from "./pages/NewMeetup";
 
 const App = () => {
@@ -16,6 +17,9 @@ const App = () => {
         </Route>
         <Route path="/new-meetup">
           <NewMeetup />
+        </Route>
+        <Route path="/favorites">
+          <Favorites />
         </Route>
       </Switch>
     </Layout>
