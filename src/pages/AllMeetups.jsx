@@ -24,7 +24,7 @@ const AllMeetups = () => {
       setLoadedMeetups(meetups);
     };
     fetchMeetups();
-  }, []);
+  });
 
   return (
     <div>
