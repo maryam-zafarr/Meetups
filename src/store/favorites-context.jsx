@@ -22,7 +22,7 @@ export function FavoritesContextProvider(props) {
   };
 
   const isFavoriteHandler = (meetupId) => {
-    userFavorites.some((meetup) => meetup.id === meetupId);
+    return userFavorites.some((meetup) => meetup.id === meetupId);
   };
 
   const context = {
