@@ -10,6 +10,7 @@ const MeetupList = (props) => {
             return (
               <MeetupItem
                 key={meetup.id}
+                id={meetup.id}
                 title={meetup.title}
                 image={meetup.image}
                 address={meetup.address}
